@@ -127,9 +127,9 @@ export default function HomeScreen() {
             styleSheet={{
               marginHorizontal: 'auto',
               paddingHorizontal: {
-                xs: theme.space.x6,
-                sm: theme.space.x8,
-                lg: theme.space.x10,
+                xs: theme.space.x4,
+                sm: theme.space.x6,
+                lg: theme.space.x8,
               },
               maxWidth: {
                 sm: theme.space.xcontainer_md,
@@ -188,7 +188,7 @@ export default function HomeScreen() {
                         color: theme.colors.primary["400"],
                         backgroundColor: theme.colors.primary["100"],
                         paddingHorizontal: theme.space['x2.5'],
-                        paddingVertical: theme.space['x2'],
+                        paddingVertical: theme.space['x1'],
                         marginRight: theme.space.x2,
                         marginBottom: {
                           xs: theme.space.x2,
@@ -201,9 +201,9 @@ export default function HomeScreen() {
                     <Text
                       styleSheet={{
                         textVariant: theme.typography.variants.body4,
-                        fontWeight: "400",
+                        fontWeight: "600",
                         display: 'inline-flex',
-                        borderRadius: theme.space.x2,
+                        borderRadius: theme.space.x64,
                         color: theme.colors.primary["400"],
                         alignItems: 'center',
                       }}

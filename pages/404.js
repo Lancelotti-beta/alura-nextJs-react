@@ -11,8 +11,7 @@ function Title( { children, as } ) {
             </Tag>
             <style jsx>{`
                 ${Tag} {
-                    color: #ccc;
-                    font-size: 1.75rem;
+                    color: #c8c8c8;
                 }
             `}</style>
         </React.Fragment>
