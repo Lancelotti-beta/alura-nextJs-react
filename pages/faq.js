@@ -1,3 +1,4 @@
+import Head from "next/head"
 import Link from "../src/components/link";
 
 //export async function getServerSideProps(){}
@@ -24,6 +25,9 @@ export default function FaqPage({ faq }){
     // const [faq, setFaq] = ([]);
     return (
         <div>
+            <Head>
+                <title>Faq - Alura Cases</title>
+            </Head>
             <h1> Alura Case - Perguntas</h1>
             <Link href="/">
                 Ir para a Home
