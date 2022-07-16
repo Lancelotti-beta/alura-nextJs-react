@@ -1,6 +1,9 @@
-import Head from "next/head"
-import Link from "../src/components/link";
+// import Head from "next/head"
+// import Link from "../src/components/link";
+import FAQScreen from "../src/screen/FaqScreen";
 
+
+export default FAQScreen
 //export async function getServerSideProps(){}
 //Em DEV roda o tempo todo && Roda acada acesso que receber
 
@@ -21,31 +24,31 @@ export async function getStaticProps() {
     }
 }
 
-export default function FaqPage({ faq }){
-    // const [faq, setFaq] = ([]);
-    return (
-        <div>
-            <Head>
-                <title>Faq - Alura Cases</title>
-            </Head>
-            <h1> Alura Case - Perguntas</h1>
-            <Link href="/">
-                Ir para a Home
-            </Link>
-            <ul>
-                {faq.map(({answer, question}) => (
-                    <li key={question}>
-                        <article>
-                            <h2>
-                                {question}
-                            </h2>
-                            <p>
-                                {answer}
-                            </p>
-                        </article>
-                    </li>
-                ))}
-            </ul>
-        </div>
-    );
-}
+// export default function faqPage({ faq }){
+//     // const [faq, setFaq] = ([]);
+//     return (
+//         <div>
+//             <Head>
+//                 <title>Faq - Alura Cases</title>
+//             </Head>
+//             <h1> Alura Case - Perguntas</h1>
+//             <Link href="/">
+//                 Ir para a Home
+//             </Link>
+//             <ul>
+//                 {faq.map(({answer, question}) => (
+//                     <li key={question}>
+//                         <article>
+//                             <h2>
+//                                 {question}
+//                             </h2>
+//                             <p>
+//                                 {answer}
+//                             </p>
+//                         </article>
+//                     </li>
+//                 ))}
+//             </ul>
+//         </div>
+//     );
+// }
