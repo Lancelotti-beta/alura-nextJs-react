@@ -1,6 +1,6 @@
 // Componente Link
 import NextLink from 'next/link';
-import LinkEstilizado from '../LinkEstilizado';
+import LinkEstilizado from '../../LinkEstilizado.js';
 
 export default function Link({ children, href, ...props }) {
   return (
